@@ -18,31 +18,33 @@ The basic requirements for building the executable are:
 * VSCode or any other equivalent code editor
 * node package manager
 
+# Getting Started
+
 #### Cloning the project
 ```
 git clone  https://github.com/harlexkhal/Hello-Microverse <Your-Build-Directory>
 ```
 
-### Getting packages and debuging with Stylelint
+## Getting packages and debuging with Stylelint
 ```
->> npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
-# For validation detection using Stylelint Run
+##### For validation detection using Stylelint Run
 ```
->> npx stylelint "**/*.{css,scss}"
+npx stylelint "**/*.{css,scss}"
 ```
-# from parent source directory
+##### from parent source directory
 
-### Getting packages and debuging with Webhint
+## Getting packages and debuging with Webhint
 ```
->> npm init -y
->> npm install --save-dev hint@6.x
+npm init -y
+npm install --save-dev hint@6.x
 ```
-# For validation detection using Webhint Run
+##### For validation detection using Webhint Run
 ```
->> npx hint .
+npx hint .
 ```
-# from parent source directory
+##### from parent source directory
 
 ## Author
 * **Alexander Oguzie-Ibeh** - [harlexkhal](https://github.com/harlexkhal)
